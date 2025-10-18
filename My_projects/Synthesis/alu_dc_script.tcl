@@ -16,6 +16,7 @@ current_design  alu
 compile_ultra
 
 write_file -f verilog -hier -output alu_netlist.v
+report_qor > alu_qor.rpt
 
 
  
